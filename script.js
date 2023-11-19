@@ -49,13 +49,12 @@ symbols.forEach((btn)=>{
             case "C":
                 output.value = "0";
                 break
-            // case "D":   
-            //     del.addEventListener("click", ()=>{
-                    
-            //         let arr = output.innerText.split("");
-            //         console.log(arr)
-            //     })
-
+            case "D":  
+            output.value = output.value.slice(0,-1)
+            if(output.value == ""){
+                output.value = "0"
+            }
+            break
             default:
                 let last_item = result[result.length - 1]
                 if(["/", "*", "+", "-"].includes(last_item) && isOperator){
