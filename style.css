@@ -1,0 +1,42 @@
+*{
+    color: white;
+}
+
+.content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.option{
+    background-color: darkblue;
+}
+
+.symbol{
+    background-color: orange;
+}
+
+.number{
+    background-color: green;
+}
+
+#euro{
+    color: black;
+}
+
+#zloty{
+    color: black;
+}
+
+button{
+    padding: 1rem;
+    height: 0.5rem;
+    width: 0.5rem;
+}
+
+#output{
+    color: black;
+}
+
