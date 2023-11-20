@@ -7,7 +7,8 @@ const clear = document.getElementById("clear")
 const remove = document.getElementById("remove")
 const switchBtn = document.getElementById("switch")
 const form = document.getElementById("calc")
-
+const btns = document.querySelectorAll("button")
+console.log(btns)
 const del = document.getElementById("del");
 console.log(output.value)
 
@@ -71,3 +72,13 @@ symbols.forEach((btn)=>{
     })
 })
 
+
+
+// click style
+
+// btns.forEach(btn=>{
+//     btn.addEventListener("click", ()=>{
+//         btn.classList.toggle("active")
+//         console.log("essa")
+//     })
+// })

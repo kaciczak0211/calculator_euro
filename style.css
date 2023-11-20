@@ -1,5 +1,6 @@
 *{
     color: white;
+    background-color: black;
 }
 
 .content{
@@ -8,6 +9,22 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+#calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+#output{
+    all: unset;
+    text-align: end;
+    background-color: white;
+    padding: 0.5rem 0;
+    width: 20vh;
 }
 
 .option{
@@ -30,13 +47,24 @@
     color: black;
 }
 
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20vh;
+}
+
 button{
-    padding: 1rem;
-    height: 0.5rem;
-    width: 0.5rem;
+    all: unset;
+    height: 3rem;
+    width: 25%;
+    text-align: center;
 }
 
 #output{
     color: black;
 }
 
+button:hover{
+    transform: translate(-1px, -2px);
+    cursor: pointer;
+}
