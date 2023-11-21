@@ -12,7 +12,8 @@ console.log(btns)
 const del = document.getElementById("del");
 console.log(output.value)
 
-
+del.style.backgroundColor = "darkblue";
+clear.style.backgroundColor = "darkblue";
 form.addEventListener("submit", function(e){
     e.preventDefault();
 })

@@ -1,6 +1,6 @@
 *{
     color: white;
-    background-color: black;
+    background-color: #444654;
 }
 
 .content{
@@ -12,11 +12,15 @@
 }
 
 #calc{
+    border: 2px solid #ededed;
+    border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 0;
+    padding: 1rem;
+    background-color: black;
 }
 
 #output{
@@ -24,6 +28,7 @@
     text-align: end;
     background-color: white;
     padding: 0.5rem 0;
+    margin: 1rem 0;
     width: 20vh;
 }
 
@@ -51,20 +56,25 @@
     display: flex;
     flex-wrap: wrap;
     width: 20vh;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: black;
 }
 
 button{
     all: unset;
-    height: 3rem;
-    width: 25%;
+    height: 2rem;
+    flex: 1 1 20%;
     text-align: center;
+    transition: background-color 0.3s ease; 
 }
-
 #output{
     color: black;
 }
 
 button:hover{
-    transform: translate(-1px, -2px);
+
+    background-color: white;
+    color: black;
     cursor: pointer;
 }
